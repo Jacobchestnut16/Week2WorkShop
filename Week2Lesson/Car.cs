@@ -41,11 +41,11 @@ namespace Week2Lesson
         }
         
         //Small Constructor
-        public Car(string Model,
-            double Price, Color color, Size size)
+        public Car(string Make, string Model,
+                        Color color, Size size)
         {
+            this.Make = Make;
             this.Model = Model;
-            this.Price = Price;
             this.color = color;
             this.size = size;
         }
